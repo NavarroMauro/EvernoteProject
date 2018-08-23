@@ -12,10 +12,19 @@ header {
         align-items: center;
         li {
             list-style: none;
+            i {
+                font-size: 2vw;
+            }
             a {
                 text-decoration: none;
                 color: black;
             }
+        }
+        #login {
+            border-radius: 5px;
+            padding: 1vw 2vw;
+            margin: 0 1vw;
+            border: 1px green solid;
         }
     }
 }
