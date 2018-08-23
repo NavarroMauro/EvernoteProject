@@ -3,7 +3,9 @@ svg {
 }
 
 header {
-  margin: auto;
+  position: fixed;
+  top: 0;
+  background-color: green;
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
 }
