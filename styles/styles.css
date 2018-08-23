@@ -1,0 +1,39 @@
+.mio {
+  background-image: url(../img/greenbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vw;
+}
+
+.mio h1 {
+  width: 40vw;
+  font-size: 4vw;
+  color: white;
+}
+
+.mio p {
+  width: 45vw;
+  font-size: 2vw;
+  color: white;
+  padding-top: 2vw;
+}
+
+.mio button {
+  margin-top: 2vw;
+  padding: 1.5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: green;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: white;
+}
+
+.mio img {
+  width: 45vw;
+  height: 28vw;
+  position: absolute;
+  top: 5vw;
+  left: 50vw;
+}
