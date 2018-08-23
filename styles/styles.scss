@@ -1,3 +1,4 @@
+// Murhaf part
 
 // Import partilas development files
 @import "nav";
@@ -351,7 +352,9 @@ a:visited.button-secondary {
   .global-footer .link-section-header {
     font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
     margin-bottom: 20px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bold;
+   }
   .global-footer .language-selector {
     float: left; }
     @media only screen and (max-width: 600px) {
@@ -1016,3 +1019,5 @@ a:visited.button-secondary {
                                   .cc-required-free-trial input[type="submit"].cc-required-basic, .cc-required-free-trial input[type="button"].cc-required-basic {
                                     margin-top: 22px;
                                     background-color: white; }
+
+// end of Murhaf part

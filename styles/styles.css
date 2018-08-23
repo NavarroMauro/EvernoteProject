@@ -943,6 +943,7 @@ a:visited.button-secondary.white:hover {
   font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .global-footer .language-selector {
