@@ -1,0 +1,66 @@
+svg {
+  width: 25vw;
+}
+
+header {
+  margin: auto;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  list-style: none;
+}
+
+header ul li {
+  height: 10vw;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:hover {
+  background-color: green;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=styles.css.map */
