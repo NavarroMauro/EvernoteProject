@@ -30,6 +30,14 @@ header nav li a {
   color: black;
 }
 
+header nav li a:hover {
+  color: green;
+}
+
+header nav #signlog {
+  margin: 0 0 0 15vw;
+}
+
 header nav #login {
   border-radius: 5px;
   padding: 1vw 2vw;

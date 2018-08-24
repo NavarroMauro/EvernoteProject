@@ -18,7 +18,13 @@ header {
             a {
                 text-decoration: none;
                 color: black;
+                &:hover {
+                    color: green;
+                }
             }
+        }
+        #signlog {
+            margin: 0 0 0 15vw;
         }
         #login {
             border-radius: 5px;
