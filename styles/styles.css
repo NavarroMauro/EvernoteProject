@@ -37,3 +37,43 @@
   top: 5vw;
   left: 50vw;
 }
+
+.mio1 {
+  background: white;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vw;
+}
+
+.mio1 h1 {
+  width: 40vw;
+  font-size: 4vw;
+  color: black;
+}
+
+.mio1 p {
+  width: 45vw;
+  font-size: 2vw;
+  color: black;
+  padding-top: 2vw;
+}
+
+.mio1 button {
+  margin-top: 2vw;
+  padding: 1.5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: green;
+}
+
+.mio1 img {
+  width: 30vw;
+  height: 25vw;
+  position: absolute;
+  top: 43vw;
+  left: 60vw;
+}
