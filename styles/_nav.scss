@@ -19,13 +19,14 @@ header {
             a {
                 text-decoration: none;
                 color: black;
+                font-weight: 700;
                 &:hover {
                     color: green;
                 }
             }
         }
         #signlog {
-            margin: 0 0 0 15vw;
+            margin: 0 0 0 25vw;
         }
         #login {
             border-radius: 5px;

@@ -1,8 +1,3 @@
-// Import partilas development files
-@import "nav";
-@import "carousel";
-
-
 * {
     margin:0px;
     padding:0px;
@@ -11,3 +6,7 @@
 body {
     box-sizing: border-box;
 }
+
+// Import partilas development files
+@import "nav";
+@import "carousel";
