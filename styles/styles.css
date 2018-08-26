@@ -7,14 +7,9 @@ header {
 
 header nav {
   height: 12vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header nav li {
@@ -43,7 +38,85 @@ header nav #login {
 }
 
 body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.mio {
+  background-image: url(../img/greenbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vw;
+}
+
+.mio h1 {
+  width: 40vw;
+  font-size: 4vw;
+  color: white;
+}
+
+.mio p {
+  width: 45vw;
+  font-size: 2vw;
+  color: white;
+  padding-top: 2vw;
+}
+
+.mio button {
+  margin-top: 2vw;
+  padding: 1.5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: green;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: white;
+}
+
+.mio img {
+  width: 45vw;
+  height: 28vw;
+  position: absolute;
+  top: 5vw;
+  left: 49vw;
+}
+
+.mio1 {
+  background: white;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vw;
+}
+
+.mio1 h1 {
+  width: 40vw;
+  font-size: 4vw;
+  color: black;
+}
+
+.mio1 p {
+  width: 45vw;
+  font-size: 2vw;
+  color: black;
+  padding-top: 2vw;
+}
+
+.mio1 button {
+  margin-top: 2vw;
+  padding: 1.5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: green;
+}
+
+.mio1 img {
+  width: 30vw;
+  height: 25vw;
+  position: absolute;
+  top: 47vw;
+  left: 60vw;
+}
