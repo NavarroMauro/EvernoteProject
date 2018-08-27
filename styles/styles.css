@@ -97,6 +97,7 @@ header nav #login {
   0% {
     opacity: 1;
   }
+<<<<<<< HEAD
   10% {
     opacity: 1;
   }
@@ -114,6 +115,10 @@ header nav #login {
   }
   60% {
     opacity: .1;
+=======
+  60% {
+    opacity: 1;
+>>>>>>> c4d1e686f104f73fed7befe06d2d2286fa125732
   }
   70% {
     opacity: .1;
