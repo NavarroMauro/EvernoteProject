@@ -1,3 +1,7 @@
+// Import partilas development files
+@import "nav";
+
+
 * {
     margin:0px;
     padding:0px;
@@ -10,3 +14,81 @@ body {
 // Import partilas development files
 @import "nav";
 @import "carousel";
+=======
+.mio{
+
+  // background: rgb(21,174,45);
+  background-image: url(../img/greenbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vw;
+
+      h1{
+        width: 40vw;
+        font-size: 4vw;
+        color: white;
+      }
+      p{
+        width: 45vw;
+        font-size: 2vw;
+        color: white;
+        padding-top: 2vw;
+      }
+      button{
+        margin-top: 2vw;
+        padding: 1.5vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        color: green;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background: white;
+      }
+      img{
+        width: 45vw;
+        height: 28vw;
+        position:absolute;
+        top: 5vw;
+        left: 49vw;
+      }
+
+}
+
+.mio1{
+  background: white;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vw;
+
+      h1{
+        width: 40vw;
+        font-size: 4vw;
+        color: black;
+      }
+      p{
+        width: 45vw;
+        font-size: 2vw;
+        color: black;
+        padding-top: 2vw;
+      }
+      button{
+        margin-top: 2vw;
+        padding: 1.5vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background: green;
+      }
+      img{
+        width: 30vw;
+        height: 25vw;
+        position:absolute;
+        top: 47vw;
+        left: 60vw;
+      }
+
+}
