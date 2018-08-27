@@ -97,7 +97,6 @@ header nav #login {
   0% {
     opacity: 1;
   }
-<<<<<<< HEAD
   10% {
     opacity: 1;
   }
@@ -115,10 +114,6 @@ header nav #login {
   }
   60% {
     opacity: .1;
-=======
-  60% {
-    opacity: 1;
->>>>>>> c4d1e686f104f73fed7befe06d2d2286fa125732
   }
   70% {
     opacity: .1;
@@ -166,6 +161,8 @@ section .logo-carousel-wrapper > img:nth-child(1) {
           animation-delay: 0s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section .logo-carousel-wrapper > img:nth-child(2) {
@@ -261,6 +258,8 @@ section #quotes > p:nth-child(1) {
           animation-delay: 0s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(2) {
@@ -272,6 +271,8 @@ section #quotes > p:nth-child(2) {
           animation-delay: 1s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(3) {
@@ -283,6 +284,8 @@ section #quotes > p:nth-child(3) {
           animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(4) {
@@ -294,6 +297,8 @@ section #quotes > p:nth-child(4) {
           animation-delay: 3s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(5) {
@@ -305,6 +310,8 @@ section #quotes > p:nth-child(5) {
           animation-delay: 4s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(6) {
@@ -316,5 +323,7 @@ section #quotes > p:nth-child(6) {
           animation-delay: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 /*# sourceMappingURL=styles.css.map */
