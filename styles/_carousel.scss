@@ -27,24 +27,21 @@ section {
                     @if $i > 1 {
                         animation: {
                             name: appear;
-                            duration: 6s;
-                            delay: $i - 1s;
+                            duration: 12s;
+                            delay: $i*2 - 2s;
                             iteration-count: infinite;
                             timing-function: ease-in;
                         }
                     } @else {
                         animation: {
                             name: appear;
-                            duration: 6s;
+                            duration: 12s;
                             delay: 0s;
                             iteration-count: infinite;
                             timing-function: ease-in;
                         }
                     }
                 }
-            }
-            &:active {
-                opacity: 1;
             }
         }
     }
@@ -54,20 +51,19 @@ section {
         > p {
             opacity: .1;
             @for $i from 1 to 7 {
-                /* $seq: (0, 2, 4, 6, 8, 10); */
                 &:nth-child(#{$i}) {
                     @if $i > 1 {
                         animation: {
                             name: appear;
-                            duration: 6s;
-                            delay: $i - 1s;
+                            duration: 12s;
+                            delay: $i*2 - 2s;
                             iteration-count: infinite;
                             timing-function: ease-in;
                         }
                     } @else {
                         animation: {
                             name: appear;
-                            duration: 6s;
+                            duration: 12s;
                             delay: 0s;
                             iteration-count: infinite;
                             timing-function: ease-in;
