@@ -1,5 +1,5 @@
 @keyframes appear {
-    0% {opacity: 1;}
+    0% {opacity: .1;}
     10% {opacity: 1;}
     20% {opacity: .1;}
     30% {opacity: .1;}
@@ -13,6 +13,11 @@
 }
 section {
     padding: 6vw 0;
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 5vw 0;
+    }
     .logo-carousel-wrapper {
         display: flex;
         justify-content: center;
@@ -30,7 +35,7 @@ section {
                             duration: 12s;
                             delay: $i*2 - 2s;
                             iteration-count: infinite;
-                            timing-function: ease-in;
+                            timing-function: ease-in-out;
                         }
                     } @else {
                         animation: {
@@ -38,7 +43,7 @@ section {
                             duration: 12s;
                             delay: 0s;
                             iteration-count: infinite;
-                            timing-function: ease-in;
+                            timing-function: ease-in-out;
                         }
                     }
                 }

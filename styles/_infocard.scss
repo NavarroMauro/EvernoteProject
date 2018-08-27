@@ -1,0 +1,72 @@
+.mio {
+  background-image: url(../img/greenbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 35vw;
+  margin: 10vw 0 0 0;
+  padding: 8vw 6vw 6vw 2vw;
+    h1{
+      width: 40vw;
+      font-size: 4vw;
+      color: white;
+    }
+    p{
+      width: 45vw;
+      font-size: 2vw;
+      color: white;
+      padding-top: 2vw;
+      line-height: 3vw;
+    }
+    button{
+      margin-top: 6vw;
+      padding: 1.5vw 4vw 1.5vw 4vw;
+      color: green;
+      font-weight: 900;
+      border: none;
+      border-radius: 5px;
+      background: white;
+    }
+    img{
+      width: 45vw;
+      height: 28vw;
+      position:absolute;
+      top: 20vw;
+      left: 49vw;
+    }
+}
+
+.mio1{
+  padding: 0 10vw;
+  background: white;
+  padding: 5vw 10vw;
+  position: relative;
+  h1{
+    width: 40vw;
+    font-size: 4vw;
+    color: black;
+  }
+  p{
+    width: 45vw;
+    font-size: 2vw;
+    color: black;
+    padding-top: 2vw;
+  }
+  button{
+    margin-top: 2vw;
+    padding: 1.5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: green;
+  }
+  img{
+    width: 35vw;
+    height: auto;
+    position:absolute;
+    top: 12vw;
+    left: 60vw;
+  }
+}
