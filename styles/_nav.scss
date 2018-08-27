@@ -2,23 +2,24 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    background: {
-        color: rgb(255, 255, 255);
-    }
+    background-color: white;
     z-index: 1;
     nav {
-        height: 12vw;
+        height: 10vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 0 5vw;
         li {
             list-style: none;
             i {
+                color: green;
                 font-size: 2vw;
             }
             a {
                 text-decoration: none;
                 color: black;
+                font-weight: 900;
                 &:hover {
                     color: green;
                 }
@@ -26,8 +27,12 @@ header {
         }
         #signlog {
             margin: 0 0 0 15vw;
+            :nth-child(1) {
+                color: green;
+            }
         }
         #login {
+            color: green;
             border-radius: 5px;
             padding: 1vw 2vw;
             margin: 0 1vw;

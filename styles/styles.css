@@ -1,13 +1,3 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -17,10 +7,16 @@ header {
 }
 
 header nav {
-  height: 12vw;
+  height: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5vw;
 }
 
 header nav li {
@@ -28,12 +24,14 @@ header nav li {
 }
 
 header nav li i {
+  color: green;
   font-size: 2vw;
 }
 
 header nav li a {
   text-decoration: none;
   color: black;
+  font-weight: 900;
 }
 
 header nav li a:hover {
@@ -44,7 +42,12 @@ header nav #signlog {
   margin: 0 0 0 15vw;
 }
 
+header nav #signlog :nth-child(1) {
+  color: green;
+}
+
 header nav #login {
+  color: green;
   border-radius: 5px;
   padding: 1vw 2vw;
   margin: 0 1vw;
@@ -309,16 +312,15 @@ section #quotes > p:nth-child(6) {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-=======
-body {
-  box-sizing: border-box;
 }
 
 .mio {
   background-image: url(../img/greenbackground.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 5vw;
+  height: 35vw;
+  margin: 10vw 0 0 0;
+  padding: 8vw 6vw 6vw 2vw;
 }
 
 .mio h1 {
@@ -332,15 +334,14 @@ body {
   font-size: 2vw;
   color: white;
   padding-top: 2vw;
+  line-height: 3vw;
 }
 
 .mio button {
-  margin-top: 2vw;
-  padding: 1.5vw;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  margin-top: 6vw;
+  padding: 1.5vw 4vw 1.5vw 4vw;
   color: green;
-  font-weight: bold;
+  font-weight: 900;
   border: none;
   border-radius: 5px;
   background: white;
@@ -350,15 +351,15 @@ body {
   width: 45vw;
   height: 28vw;
   position: absolute;
-  top: 5vw;
+  top: 20vw;
   left: 49vw;
 }
 
 .mio1 {
+  padding: 0 10vw;
   background: white;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 5vw;
+  padding: 5vw 10vw;
+  position: relative;
 }
 
 .mio1 h1 {
@@ -387,9 +388,20 @@ body {
 }
 
 .mio1 img {
-  width: 30vw;
-  height: 25vw;
+  width: 35vw;
+  height: auto;
   position: absolute;
-  top: 47vw;
+  top: 12vw;
   left: 60vw;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=styles.css.map */
