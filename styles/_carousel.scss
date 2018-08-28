@@ -1,0 +1,81 @@
+@keyframes appear {
+    0% {opacity: .1;}
+    10% {opacity: 1;}
+    20% {opacity: .1;}
+    30% {opacity: .1;}
+    40% {opacity: .1;}
+    50% {opacity: .1;}
+    60% {opacity: .1;}
+    70% {opacity: .1;}
+    80% {opacity: .1;}
+    90% {opacity: .1;}
+    100% {opacity: .1;}
+}
+section {
+    padding: 6vw 0;
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 5vw 0;
+    }
+    .logo-carousel-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > img {
+            padding: 0 2vw;
+            width: 300vw;
+            height: auto;
+            opacity: 0.1;
+            @for $i from 1 to 7 {
+                &:nth-child(#{$i}) {
+                    @if $i > 1 {
+                        animation: {
+                            name: appear;
+                            duration: 12s;
+                            delay: $i*2 - 2s;
+                            iteration-count: infinite;
+                            timing-function: ease-in-out;
+                        }
+                    } @else {
+                        animation: {
+                            name: appear;
+                            duration: 12s;
+                            delay: 0s;
+                            iteration-count: infinite;
+                            timing-function: ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #quotes {
+        padding: 6vw 0;
+        text-align: center;
+        > p {
+            opacity: .1;
+            @for $i from 1 to 7 {
+                &:nth-child(#{$i}) {
+                    @if $i > 1 {
+                        animation: {
+                            name: appear;
+                            duration: 12s;
+                            delay: $i*2 - 2s;
+                            iteration-count: infinite;
+                            timing-function: ease-in;
+                        }
+                    } @else {
+                        animation: {
+                            name: appear;
+                            duration: 12s;
+                            delay: 0s;
+                            iteration-count: infinite;
+                            timing-function: ease-in;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
