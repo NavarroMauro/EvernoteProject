@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 header {
   position: fixed;
   top: 0;
@@ -423,13 +422,6 @@ section #quotes > p:nth-child(6) {
 .img-fkt {
   width: 10vw;
   margin: 1vw auto;
-}
-
-=======
->>>>>>> update my scss and html file
-* {
-  margin: 0px;
-  padding: 0px;
 }
 
 body {
@@ -1456,4 +1448,9 @@ a:visited.button-secondary.white:hover {
 .sign-up .legal a:hover, .sign-up .legal a:focus {
   color: #fff;
   text-decoration: underline;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }

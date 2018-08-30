@@ -1,0 +1,662 @@
+body {
+  font-family: "Soleil", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  padding-top: 130px; }
+  body:lang(ko) {
+    font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+  body:lang(ja), body:lang(jp) {
+    font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+  body:lang(zh-cn), body:lang(zh-tw) {
+    font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+  body:lang(ru) {
+    font-family: sans-serif;
+    font-weight: lighter; }
+.button-primary,
+a:link.button-primary,
+a:visited.button-primary {
+            display: inline-block;
+            font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: normal;
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            background: #00A82D;
+            border: 0;
+            border-radius: 5px;
+            padding: 18px 20px 17px;
+            transition: .3s background ease-in-out;
+            -webkit-font-smoothing: antialiased; }
+            .button-primary:lang(ko),
+            a:link.button-primary:lang(ko),
+            a:visited.button-primary:lang(ko) {
+              font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+            .button-primary:lang(ja), .button-primary:lang(jp),
+            a:link.button-primary:lang(ja),
+            a:link.button-primary:lang(jp),
+            a:visited.button-primary:lang(ja),
+            a:visited.button-primary:lang(jp) {
+              font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+            .button-primary:lang(zh-cn), .button-primary:lang(zh-tw),
+            a:link.button-primary:lang(zh-cn),
+            a:link.button-primary:lang(zh-tw),
+            a:visited.button-primary:lang(zh-cn),
+            a:visited.button-primary:lang(zh-tw) {
+              font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+            .button-primary:lang(ru),
+            a:link.button-primary:lang(ru),
+            a:visited.button-primary:lang(ru) {
+              font-family: sans-serif;
+              font-weight: lighter; }
+            .button-primary:hover,
+            a:link.button-primary:hover,
+            a:visited.button-primary:hover {
+              background: #14CC45;
+              transition: .1s background ease-in-out; }
+.button-secondary,
+a:link.button-secondary,
+a:visited.button-secondary {
+            display: inline-block;
+            font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: normal;
+            text-decoration: none;
+            text-align: center;
+            color: #00A82D;
+            border: 2px solid #00A82D;
+            border-radius: 5px;
+            padding: 16px 16px 15px;
+            transition: .3s background ease-in-out, .3s color ease-in-out;
+            -webkit-font-smoothing: antialiased; }
+            .button-secondary:lang(ko),
+            a:link.button-secondary:lang(ko),
+            a:visited.button-secondary:lang(ko) {
+              font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+            .button-secondary:lang(ja), .button-secondary:lang(jp),
+            a:link.button-secondary:lang(ja),
+            a:link.button-secondary:lang(jp),
+            a:visited.button-secondary:lang(ja),
+            a:visited.button-secondary:lang(jp) {
+              font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+            .button-secondary:lang(zh-cn), .button-secondary:lang(zh-tw),
+            a:link.button-secondary:lang(zh-cn),
+            a:link.button-secondary:lang(zh-tw),
+            a:visited.button-secondary:lang(zh-cn),
+            a:visited.button-secondary:lang(zh-tw) {
+              font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+            .button-secondary:lang(ru),
+            a:link.button-secondary:lang(ru),
+            a:visited.button-secondary:lang(ru) {
+              font-family: sans-serif;
+              font-weight: lighter; }
+            .button-secondary:hover,
+            a:link.button-secondary:hover,
+            a:visited.button-secondary:hover {
+              color: #fff;
+              background: #00A82D;
+              transition: .1s background ease-in-out, .1s color ease-in-out; }
+            .button-secondary.white,
+            a:link.button-secondary.white,
+            a:visited.button-secondary.white {
+              color: #00A82D;
+              background: #fff; }
+              .button-secondary.white:hover,
+              a:link.button-secondary.white:hover,
+              a:visited.button-secondary.white:hover {
+                background: #f7f7f7; }
+.global-footer {
+  font-family: "Soleil", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 14px;
+  position: relative;
+  padding: 80px 20px; }
+  .global-footer:lang(ko) {
+    font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+  .global-footer:lang(ja), .global-footer:lang(jp) {
+    font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+  .global-footer:lang(zh-cn), .global-footer:lang(zh-tw) {
+    font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+  .global-footer:lang(ru) {
+    font-family: sans-serif;
+    font-weight: lighter; }
+  @media only screen and (max-width: 600px) {
+    .global-footer {
+      padding: 120px 20px 80px; } }
+  .global-footer a,
+  .global-footer p,
+  .global-footer ul {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit; }
+  .global-footer a:link,
+  .global-footer a:visited {
+    text-decoration: none;
+    color: #000;
+    transition: .1s color ease-in-out; }
+  .global-footer a:hover,
+  .global-footer a:focus {
+    color: #00a82d; }
+  .global-footer .nav-section .row {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative; }
+    .global-footer .nav-section .row::after {
+      content: '';
+      display: block;
+      clear: both; }
+    .global-footer .nav-section .row.footer-logo {
+      border-bottom: 3px solid #000;
+      margin-bottom: 48px;
+      padding-bottom: 48px; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .nav-section .row.footer-logo {
+          border-bottom-width: 2px;
+          margin-bottom: 120px;
+          padding-bottom: 60px; } }
+      .global-footer .nav-section .row.footer-logo .logo {
+        background-image: url("https://evernote.com/img/footer/footer-logo.svg");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        height: 40px;
+        width: 170px; }
+        @media only screen and (max-width: 600px) {
+          .global-footer .nav-section .row.footer-logo .logo {
+            height: 32px;
+            width: 142px; } }
+    .global-footer .nav-section .row.footer-flex {
+      display: flex; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .nav-section .row.footer-flex {
+          flex-direction: column; } }
+    .global-footer .nav-section .row.language-social {
+      border-bottom: 1px solid rgba(136, 139, 141, 0.5);
+      margin-bottom: 35px;
+      padding-bottom: 35px; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .nav-section .row.language-social {
+          border-bottom: 0;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 0;
+          padding-bottom: 0; } }
+  .global-footer .nav-section.footer-nav {
+    margin-bottom: 100px; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .nav-section.footer-nav {
+        margin-bottom: 0; } }
+  .global-footer .nav-section.footer-info {
+    font-size: 12px; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .nav-section.footer-info {
+        font-size: 13px; } }
+  .global-footer .link-section {
+    display: block;
+    flex: 1 1 16.666%;
+    max-width: 16.666%; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .link-section {
+        font-size: 16px;
+        flex: 1;
+        margin-bottom: 40px;
+        max-width: none; }
+        .global-footer .link-section:last-child {
+          margin-bottom: 0; } }
+    .global-footer .link-section.signup-login {
+      text-align: right; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .link-section.signup-login {
+          display: none; } }
+    .global-footer .link-section ul {
+      list-style-type: none; }
+    .global-footer .link-section li {
+      margin: 28px 0;
+      line-height: normal; }
+    .global-footer .link-section a {
+      font-family: "Soleil_Light", Helvetica, Arial, sans-serif;
+      position: relative; }
+      .global-footer .link-section a:lang(ko) {
+        font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+      .global-footer .link-section a:lang(ja), .global-footer .link-section a:lang(jp) {
+        font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+      .global-footer .link-section a:lang(zh-cn), .global-footer .link-section a:lang(zh-tw) {
+        font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+      .global-footer .link-section a:lang(ru) {
+        font-family: sans-serif;
+        font-weight: lighter; }
+      .global-footer .link-section a.footer-signup {
+        font-family: "Soleil", Helvetica, Arial, sans-serif;
+        color: #00a82d; }
+        .global-footer .link-section a.footer-signup:lang(ko) {
+          font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+        .global-footer .link-section a.footer-signup:lang(ja), .global-footer .link-section a.footer-signup:lang(jp) {
+          font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+        .global-footer .link-section a.footer-signup:lang(zh-cn), .global-footer .link-section a.footer-signup:lang(zh-tw) {
+          font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+        .global-footer .link-section a.footer-signup:lang(ru) {
+          font-family: sans-serif;
+          font-weight: lighter; }
+        .global-footer .link-section a.footer-signup:hover {
+          color: #14cc45; }
+    .global-footer .link-section .button-outline {
+      font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
+      appearance: none;
+      border-radius: 3px;
+      border: 2px solid #00a82d;
+      color: #00a82d;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 12px;
+      line-height: normal;
+      letter-spacing: .5px;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      transition: .1s all ease-in-out; }
+      .global-footer .link-section .button-outline:lang(ko) {
+        font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+      .global-footer .link-section .button-outline:lang(ja), .global-footer .link-section .button-outline:lang(jp) {
+        font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+      .global-footer .link-section .button-outline:lang(zh-cn), .global-footer .link-section .button-outline:lang(zh-tw) {
+        font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+      .global-footer .link-section .button-outline:lang(ru) {
+        font-family: sans-serif;
+        font-weight: lighter; }
+      .global-footer .link-section .button-outline:hover {
+        background-color: #00a82d;
+        color: #fff; }
+    .global-footer .link-section .signup-or {
+      display: inline-block;
+      margin-right: .5em; }
+    .global-footer .link-section .new {
+      position: absolute;
+      top: -10px;
+      left: 100%;
+      font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
+      font-size: 9px;
+      text-transform: uppercase;
+      color: #00a82d;
+      margin-left: -15px;
+      white-space: nowrap; }
+      .global-footer .link-section .new:lang(fr) {
+        left: 0;
+        margin-left: 10px; }
+  .global-footer .link-section-header {
+    font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+   }
+  .global-footer .language-selector {
+    float: left; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .language-selector {
+        border-bottom: 1px solid rgba(136, 139, 141, 0.5);
+        border-top: 1px solid #000;
+        display: inline-block;
+        flex: 1;
+        float: none;
+        margin-bottom: 60px;
+        order: 1;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        position: relative;
+        width: 100%; } }
+    .global-footer .language-selector .current-language {
+      font-family: "Soleil", Helvetica, Arial, sans-serif;
+      display: inline-block;
+      margin-left: .5em; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .language-selector .current-language {
+          float: right; } }
+  .global-footer .language-selector-toggle {
+    color: #000;
+    font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
+    text-decoration: none; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .language-selector-toggle {
+        text-align: left; } }
+    .global-footer .language-selector-toggle:active, .global-footer .language-selector-toggle:focus {
+      color: #000; }
+    .global-footer .language-selector-toggle .arrow {
+      position: relative;
+      top: -2px;
+      display: inline-block;
+      border-top: 6px solid #000;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      margin-left: 7px;
+      transition: .1s border ease-in-out; }
+  .global-footer .language-selector-options {
+    display: none;
+    position: absolute;
+    left: 40px;
+    bottom: 100%;
+    width: 430px;
+    background: #e7f0f4;
+    margin-bottom: 8px;
+    padding: 10px 0; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .language-selector-options {
+        position: static;
+        width: 100%;
+        text-align: center;
+        background: transparent;
+        margin: 0; } }
+    .global-footer .language-selector-options.open {
+      display: block; }
+    .global-footer .language-selector-options ul {
+      float: left;
+      width: 50%;
+      list-style-type: none; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .language-selector-options ul {
+          display: inline-block;
+          float: none;
+          width: 49%;
+          text-align: left; } }
+      @media only screen and (max-width: 600px) {
+        .global-footer .language-selector-options ul {
+          width: 100%; } }
+    .global-footer .language-selector-options a {
+      display: block;
+      color: #000;
+      text-decoration: none;
+      padding: 4px 20px 6px; }
+      .global-footer .language-selector-options a:hover {
+        background: #00a82d;
+        color: #fff; }
+      @media only screen and (max-width: 960px) {
+        .global-footer .language-selector-options a {
+          padding: 7px 0 9px; }
+          .global-footer .language-selector-options a:hover {
+            background: transparent;
+            color: #00a82d; } }
+  .global-footer .social-links {
+    float: right; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .social-links {
+        float: none;
+        flex: 1;
+        order: -1;
+        margin-bottom: 80px; } }
+    .global-footer .social-links ul {
+      list-style-type: none;
+      overflow: hidden; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .social-links ul {
+          align-items: center;
+          display: flex;
+          justify-content: space-between; } }
+    .global-footer .social-links li {
+      float: left;
+      margin-left: 24px; }
+      .global-footer .social-links li:first-child {
+        margin-left: 0; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .social-links li {
+          display: inline-block;
+          float: none;
+          flex: 0 0 auto;
+          margin-left: 0; } }
+    .global-footer .social-links a {
+      display: block;
+      height: 32px;
+      overflow: hidden;
+      text-align: center;
+      width: 32px; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .social-links a {
+          height: 50px;
+          width: 50px; } }
+    .global-footer .social-links img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      width: auto; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .social-links img {
+          height: 100%;
+          width: 100%; } }
+    .global-footer .social-links span {
+      position: absolute;
+      right: 9999px; }
+    .global-footer .social-links .youtube {
+      margin-top: 2px; }
+  .global-footer .legal {
+    font-family: "Soleil_Light", Helvetica, Arial, sans-serif;
+    color: #888b8d; }
+    .global-footer .legal:lang(ko) {
+      font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+    .global-footer .legal:lang(ja), .global-footer .legal:lang(jp) {
+      font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+    .global-footer .legal:lang(zh-cn), .global-footer .legal:lang(zh-tw) {
+      font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+    .global-footer .legal:lang(ru) {
+      font-family: sans-serif;
+      font-weight: lighter; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .legal {
+        display: flex;
+        flex-direction: column;
+        text-align: center; } }
+    .global-footer .legal a:link,
+    .global-footer .legal a:visited {
+      color: #888b8d; }
+    .global-footer .legal a:hover,
+    .global-footer .legal a:focus {
+      color: #000; }
+    .global-footer .legal .copyright {
+      float: left; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .legal .copyright {
+          float: none;
+          margin-bottom: 60px;
+          order: 1; } }
+    .global-footer .legal .links {
+      float: right;
+      list-style-type: none; }
+      @media only screen and (max-width: 600px) {
+        .global-footer .legal .links {
+          float: none;
+          margin-bottom: 60px;
+          order: -1;
+          display: flex;
+          justify-content: space-between; } }
+      .global-footer .legal .links li {
+        display: inline-block;
+        margin-left: 30px; }
+        .global-footer .legal .links li:first-child {
+          margin-left: 0; }
+        @media only screen and (max-width: 600px) {
+          .global-footer .legal .links li {
+            margin-left: 0; } }
+  .global-footer .mobile-logo {
+    display: none; }
+    @media only screen and (max-width: 600px) {
+      .global-footer .mobile-logo {
+        display: block;
+        text-align: center; } }
+    .global-footer .mobile-logo .logo-icon {
+      background-image: url("https://evernote.com/img/footer/logo-icon.svg");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      height: 32px;
+      width: 27px; }
+.sign-up {
+  background-color: #00a82d;
+  color: #fff;
+  padding: 160px 40px; }
+  @media only screen and (max-width: 600px) {
+    .sign-up {
+      padding: 120px 20px; } }
+  .sign-up .container {
+    align-items: center;
+    display: flex;
+    max-width: 1220px;
+    margin: 0 auto;
+    width: auto; }
+    @media only screen and (max-width: 600px) {
+      .sign-up .container {
+        flex-direction: column; } }
+    .sign-up .container .col {
+      flex: 1; }
+      .sign-up .container .col.text {
+        margin-right: 200px;
+        word-wrap: break-word; }
+        @media only screen and (max-width: 1100px) {
+          .sign-up .container .col.text {
+            margin-right: 80px; } }
+        @media only screen and (max-width: 900px) {
+          .sign-up .container .col.text {
+            margin-right: 40px; } }
+        @media only screen and (max-width: 600px) {
+          .sign-up .container .col.text {
+            margin-right: 0; } }
+      .sign-up .container .col.form {
+        margin-left: auto;
+        max-width: 360px; }
+        @media only screen and (max-width: 900px) {
+          .sign-up .container .col.form {
+            max-width: none; } }
+  .sign-up .title {
+    font-family: "Soleil_Light", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    line-height: 56px;
+    margin: 0;
+    padding: 0; }
+    .sign-up .title:lang(ko) {
+      font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+    .sign-up .title:lang(ja), .sign-up .title:lang(jp) {
+      font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+    .sign-up .title:lang(zh-cn), .sign-up .title:lang(zh-tw) {
+      font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+    .sign-up .title:lang(ru) {
+      font-family: sans-serif;
+      font-weight: lighter; }
+    @media only screen and (max-width: 600px) {
+      .sign-up .title {
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center; } }
+  .sign-up .description {
+    font-size: 20px;
+    line-height: 31px;
+    margin: 40px 0 0;
+    padding: 0;
+    max-width: 440px; }
+    @media only screen and (max-width: 600px) {
+      .sign-up .description {
+        text-align: center;
+        margin: 40px 0; } }
+  .sign-up .form-row.or {
+    margin: 24px 0;
+    text-align: center; }
+  .sign-up .form-input {
+    margin: 16px 0; }
+  .sign-up .form-input:first-of-type {
+      margin-top: 0; }
+  .sign-up .form-input:last-of-type {
+      margin-bottom: 0; }
+  .sign-up .form-submit {
+    margin-top: 32px; }
+  .sign-up form input[type=email],
+  .sign-up form input[type=password] {
+    font-family: "Soleil", Helvetica, Arial, sans-serif;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #eef2f3;
+    color: #000;
+    font-size: 18px;
+    line-height: 1em;
+    padding: 16px 20px;
+    width: 100%; }
+    .sign-up form input[type=email]:lang(ko),
+    .sign-up form input[type=password]:lang(ko) {
+      font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+    .sign-up form input[type=email]:lang(ja), .sign-up form input[type=email]:lang(jp),
+    .sign-up form input[type=password]:lang(ja),
+    .sign-up form input[type=password]:lang(jp) {
+      font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+    .sign-up form input[type=email]:lang(zh-cn), .sign-up form input[type=email]:lang(zh-tw),
+    .sign-up form input[type=password]:lang(zh-cn),
+    .sign-up form input[type=password]:lang(zh-tw) {
+      font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+    .sign-up form input[type=email]:lang(ru),
+    .sign-up form input[type=password]:lang(ru) {
+      font-family: sans-serif;
+      font-weight: lighter; }
+    .sign-up form input[type=email]::placeholder,
+    .sign-up form input[type=password]::placeholder {
+      color: #94999C;
+      opacity: 1; }
+    .sign-up form input[type=email].active-error,
+    .sign-up form input[type=password].active-error {
+      background-color: #eef2f3;
+      border: 1px solid #ff415f;
+      color: #ff415f; }
+      .sign-up form input[type=email].active-error::placeholder,
+      .sign-up form input[type=password].active-error::placeholder {
+        color: #ff415f; }
+  .sign-up .button-google {
+    font-family: "Soleil", Helvetica, Arial, sans-serif;
+    background: url("/img/home/google-logo.svg") no-repeat;
+    background-position: left 20px center;
+    background-color: #fff;
+    background-size: 18px 18px;
+    border-radius: 4px;
+    border: 0;
+    border-radius: 5px;
+    color: #000;
+    display: block;
+    font-size: 18px;
+    margin: 0;
+    padding: 16px 40px 16px 60px;
+    text-decoration: none; }
+    .sign-up .button-google:lang(ko) {
+      font-family: "\B098\B214\ACE0\B515", "NanumGothic", "\B9D1\C740   \ACE0\B515", "Malgun Gothic", "\B3CB\C6C0", "DotumChe", "Dotum", sans-serif; }
+    .sign-up .button-google:lang(ja), .sign-up .button-google:lang(jp) {
+      font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, "MS P\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif; }
+    .sign-up .button-google:lang(zh-cn), .sign-up .button-google:lang(zh-tw) {
+      font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", sans-serif; }
+    .sign-up .button-google:lang(ru) {
+      font-family: sans-serif;
+      font-weight: lighter; }
+  .sign-up .button-primary {
+    cursor: pointer; }
+    .sign-up .button-primary.white {
+      background-color: #fff;
+      color: #00a82d;
+      font-family: "Soleil_Bold", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      width: 100%; }
+      .sign-up .button-primary.white:hover {
+        background-color: #f7f7f7; }
+  .sign-up input.button-primary {
+    -webkit-appearance: none;
+    appearance: none; }
+  .sign-up .form-errors-container {
+    margin-top: 16px;
+    position: absolute; }
+    @media only screen and (max-width: 600px) {
+      .sign-up .form-errors-container {
+        height: auto;
+        position: relative; } }
+  .sign-up .form-error {
+    color: #fff; }
+  .sign-up .legal a {
+    font-weight: bold; }
+    .sign-up .legal a:link, .sign-up .legal a:visited {
+      color: #fff;
+      text-decoration: none; }
+    .sign-up .legal a:hover, .sign-up .legal a:focus {
+      color: #fff;
+      text-decoration: underline; }
