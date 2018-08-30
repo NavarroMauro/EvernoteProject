@@ -214,30 +214,34 @@ section #quotes > p:nth-child(6) {
 }
 
 .mio {
+  box-sizing: content-box;
   background-image: url(../img/greenbackground.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 35vw;
   margin: 10vw 0 0 0;
-  padding: 8vw 6vw 6vw 2vw;
+  padding: 7vw 3vw 3vw 7vw;
 }
 
 .mio h1 {
   width: 40vw;
+  line-height: 5vw;
   font-size: 4vw;
+  font-weight: bolder;
   color: white;
 }
 
 .mio p {
-  width: 45vw;
-  font-size: 2vw;
+  width: 37vw;
+  font-size: 1.7vw;
+  font-weight: lighter;
   color: white;
   padding-top: 2vw;
   line-height: 3vw;
 }
 
 .mio button {
-  margin-top: 6vw;
+  margin-top: 3.5vw;
   padding: 1.5vw 4vw 1.5vw 4vw;
   color: green;
   font-weight: 900;
@@ -248,34 +252,38 @@ section #quotes > p:nth-child(6) {
 
 .mio img {
   width: 45vw;
-  height: 28vw;
+  height: 26.5vw;
   position: absolute;
-  top: 20vw;
+  top: 27vw;
   left: 49vw;
 }
 
 .mio1 {
-  padding: 0 10vw;
+  padding: 0vw 10vw;
   background: white;
-  padding: 5vw 10vw;
+  padding: 5vw 12vw;
   position: relative;
 }
 
 .mio1 h1 {
+  margin-top: 4vw;
   width: 40vw;
   font-size: 4vw;
+  font-weight: lighter;
   color: black;
 }
 
 .mio1 p {
-  width: 45vw;
-  font-size: 2vw;
+  width: 31vw;
+  line-height: 3vw;
+  font-size: 1.6vw;
   color: black;
   padding-top: 2vw;
 }
 
 .mio1 button {
   margin-top: 2vw;
+  margin-bottom: 10vw;
   padding: 1.5vw;
   padding-left: 4vw;
   padding-right: 4vw;
@@ -291,7 +299,7 @@ section #quotes > p:nth-child(6) {
   height: auto;
   position: absolute;
   top: 12vw;
-  left: 60vw;
+  left: 52vw;
 }
 
 .section-grey {
