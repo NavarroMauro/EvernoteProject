@@ -322,6 +322,11 @@ section #quotes > p:nth-child(6) {
   font-weight: 700;
 }
 
+.big {
+  margin: 3vw auto;
+  font-size: 3vw;
+}
+
 .sub {
   line-height: 2;
   letter-spacing: 0.1vw;
@@ -391,6 +396,11 @@ section #quotes > p:nth-child(6) {
   padding: 1vw 1vw;
   margin: 2vw auto;
   border-radius: 0.5vw;
+}
+
+.btn-green:hover {
+  cursor: pointer;
+  background-color: #004d00;
 }
 
 .btn-green a {

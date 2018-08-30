@@ -32,6 +32,14 @@ $font: 'Roboto', sans-serif;
     weight: 700;
   }
 }
+
+.big {
+  margin: 3vw auto;
+  font:{
+    size: 3vw;
+  }
+}
+
 .sub {
   line-height: 2;
   letter-spacing: 0.1vw;
@@ -135,27 +143,3 @@ flex-direction: row-reverse;
   width: 10vw;
   margin: 1vw auto;
 }
-
-
-
-// .grid {
-//   grid-template: auto 1fr / auto 1fr auto;
-//   grid-gap: 5vw;
-// }
-//
-// .grid-head {
-//   grid-area: 1 / 1 / 2 / 2;
-// }
-//
-// .grid-text {
-//   grid-area: 1 / 1 / 2 / 2;
-// }
-//
-// .grid-btn {
-//   grid-area: 1 / 1 / 2 / 2;
-// }
-//
-// .grid-img {
-//   grid-area: 1 / 2 / 2 / 2;
-//   width: 30vw;
-// }
