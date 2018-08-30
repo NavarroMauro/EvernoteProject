@@ -351,6 +351,7 @@ section #quotes > p:nth-child(6) {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
