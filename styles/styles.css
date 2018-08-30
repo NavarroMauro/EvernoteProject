@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   position: fixed;
   top: 0;
@@ -424,6 +425,8 @@ section #quotes > p:nth-child(6) {
   margin: 1vw auto;
 }
 
+=======
+>>>>>>> update my scss and html file
 * {
   margin: 0px;
   padding: 0px;
