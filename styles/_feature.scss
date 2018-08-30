@@ -38,6 +38,10 @@ $font: 'Roboto', sans-serif;
   font:{
     size: 3vw;
   }
+
+  @media screen and(max-width: 567px) {
+    margin: 0;
+  }
 }
 
 .sub {
@@ -68,18 +72,15 @@ $font: 'Roboto', sans-serif;
 .flex {
   display: flex;
   justify-content: space-around;
+
+  @media screen and (max-width: 567px) {
+    flex-direction: column;
+  }
 }
 
 .reverse {
 flex-direction: row-reverse;
   }
-
-.teaser-group{
-  > div {
-    width: 30%;
-    margin: 0 1vw;
-  }
-}
 
 .teaser-img {
   width: 20vw;
@@ -91,6 +92,10 @@ flex-direction: row-reverse;
   display: flex;
   width: 80%;
   align-items: center;
+
+  @media screen and(max-width: 567px) {
+    flex-direction: column;
+  }
 
   img {
     width: 30vw;
@@ -138,6 +143,10 @@ flex-direction: row-reverse;
   flex-direction: column;
   align-items: center;
   width: 20%;
+
+  @media screen and (max-width: 567px) {
+    width: 90%;
+  }
 }
 
 .img-fkt {
