@@ -7,8 +7,11 @@ $font: 'Roboto', sans-serif;
 }
 
 .plus {
-  display: block;
+  display: none;
   text-align: center;
+  @media screen and (max-width: 576px) {
+    display: block;
+  }
 }
 
 .pad {
@@ -77,14 +80,6 @@ $font: 'Roboto', sans-serif;
     font: {
       size: 4.5vw;
     }
-  }
-}
-
-.plus {
-  display: none;
-
-  @media screen and (max-width: 576px) {
-    display: block;
   }
 }
 

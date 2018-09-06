@@ -8,9 +8,14 @@ header {
 
 header nav {
   height: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 5vw;
 }
 
@@ -47,6 +52,42 @@ header nav #login {
   padding: 1vw 2vw;
   margin: 0 1vw;
   border: 1px green solid;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: .1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: .1;
+  }
+  30% {
+    opacity: .1;
+  }
+  40% {
+    opacity: .1;
+  }
+  50% {
+    opacity: .1;
+  }
+  60% {
+    opacity: .1;
+  }
+  70% {
+    opacity: .1;
+  }
+  80% {
+    opacity: .1;
+  }
+  90% {
+    opacity: .1;
+  }
+  100% {
+    opacity: .1;
+  }
 }
 
 @keyframes appear {
@@ -96,9 +137,15 @@ section img {
 }
 
 section .logo-carousel-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section .logo-carousel-wrapper > img {
@@ -109,51 +156,81 @@ section .logo-carousel-wrapper > img {
 }
 
 section .logo-carousel-wrapper > img:nth-child(1) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 section .logo-carousel-wrapper > img:nth-child(2) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 section .logo-carousel-wrapper > img:nth-child(3) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 section .logo-carousel-wrapper > img:nth-child(4) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 6s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 section .logo-carousel-wrapper > img:nth-child(5) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 section .logo-carousel-wrapper > img:nth-child(6) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 section #quotes {
@@ -166,51 +243,81 @@ section #quotes > p {
 }
 
 section #quotes > p:nth-child(1) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(2) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(3) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(4) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 6s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(5) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 section #quotes > p:nth-child(6) {
-  animation-name: appear;
-  animation-duration: 12s;
-  animation-delay: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 .mio {
@@ -300,8 +407,14 @@ section #quotes > p:nth-child(6) {
 }
 
 .plus {
-  display: block;
+  display: none;
   text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .plus {
+    display: block;
+  }
 }
 
 .pad {
@@ -363,39 +476,45 @@ section #quotes > p:nth-child(6) {
   }
 }
 
-.plus {
-  display: none;
-}
-
-@media screen and (max-width: 576px) {
-  .plus {
-    display: block;
-  }
-}
-
 .grey {
   color: grey;
 }
 
 .teaser {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media screen and (max-width: 567px) {
   .flex {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 .reverse {
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .teaser-img {
@@ -405,14 +524,21 @@ section #quotes > p:nth-child(6) {
 
 .section-card {
   margin: 5vw auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 80%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (max-width: 567px) {
   .section-card {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -428,8 +554,13 @@ section #quotes > p:nth-child(6) {
 }
 
 .section-card .block-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .section-card .btn-card {
@@ -468,9 +599,16 @@ section #quotes > p:nth-child(6) {
 }
 
 .fkt {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 90%;
   margin: 0 2vw;
 }
@@ -488,7 +626,8 @@ section #quotes > p:nth-child(6) {
 
 body {
   font-family: "Soleil", Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 16px;
   line-height: 22px;
   color: #000;
@@ -526,6 +665,7 @@ a:visited.button-primary {
   border: 0;
   border-radius: 5px;
   padding: 18px 20px 17px;
+  -webkit-transition: .3s background ease-in-out;
   transition: .3s background ease-in-out;
   -webkit-font-smoothing: antialiased;
 }
@@ -563,6 +703,7 @@ a:visited.button-primary:lang(ru) {
 a:link.button-primary:hover,
 a:visited.button-primary:hover {
   background: #14CC45;
+  -webkit-transition: .1s background ease-in-out;
   transition: .1s background ease-in-out;
 }
 
@@ -579,6 +720,7 @@ a:visited.button-secondary {
   border: 2px solid #00A82D;
   border-radius: 5px;
   padding: 16px 16px 15px;
+  -webkit-transition: .3s background ease-in-out, .3s color ease-in-out;
   transition: .3s background ease-in-out, .3s color ease-in-out;
   -webkit-font-smoothing: antialiased;
 }
@@ -617,6 +759,7 @@ a:link.button-secondary:hover,
 a:visited.button-secondary:hover {
   color: #fff;
   background: #00A82D;
+  -webkit-transition: .1s background ease-in-out, .1s color ease-in-out;
   transition: .1s background ease-in-out, .1s color ease-in-out;
 }
 
@@ -676,6 +819,7 @@ a:visited.button-secondary.white:hover {
 .global-footer a:visited {
   text-decoration: none;
   color: #000;
+  -webkit-transition: .1s color ease-in-out;
   transition: .1s color ease-in-out;
 }
 
@@ -728,12 +872,17 @@ a:visited.button-secondary.white:hover {
 }
 
 .global-footer .nav-section .row.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 @media only screen and (max-width: 600px) {
   .global-footer .nav-section .row.footer-flex {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -746,8 +895,13 @@ a:visited.button-secondary.white:hover {
 @media only screen and (max-width: 600px) {
   .global-footer .nav-section .row.language-social {
     border-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-bottom: 0;
     padding-bottom: 0;
   }
@@ -775,14 +929,18 @@ a:visited.button-secondary.white:hover {
 
 .global-footer .link-section {
   display: block;
-  flex: 1 1 16.666%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 16.666%;
+          flex: 1 1 16.666%;
   max-width: 16.666%;
 }
 
 @media only screen and (max-width: 600px) {
   .global-footer .link-section {
     font-size: 16px;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin-bottom: 40px;
     max-width: none;
   }
@@ -860,7 +1018,9 @@ a:visited.button-secondary.white:hover {
 
 .global-footer .link-section .button-outline {
   font-family: "Soleil_Medium", Helvetica, Arial, sans-serif;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-radius: 3px;
   border: 2px solid #00a82d;
   color: #00a82d;
@@ -871,6 +1031,7 @@ a:visited.button-secondary.white:hover {
   letter-spacing: .5px;
   padding: 12px 20px;
   text-transform: uppercase;
+  -webkit-transition: .1s all ease-in-out;
   transition: .1s all ease-in-out;
 }
 
@@ -934,10 +1095,14 @@ a:visited.button-secondary.white:hover {
     border-bottom: 1px solid rgba(136, 139, 141, 0.5);
     border-top: 1px solid #000;
     display: inline-block;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     float: none;
     margin-bottom: 60px;
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     padding-bottom: 60px;
     padding-top: 60px;
     position: relative;
@@ -981,6 +1146,7 @@ a:visited.button-secondary.white:hover {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   margin-left: 7px;
+  -webkit-transition: .1s border ease-in-out;
   transition: .1s border ease-in-out;
 }
 
@@ -1059,8 +1225,12 @@ a:visited.button-secondary.white:hover {
 @media only screen and (max-width: 600px) {
   .global-footer .social-links {
     float: none;
-    flex: 1;
-    order: -1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
     margin-bottom: 80px;
   }
 }
@@ -1072,9 +1242,15 @@ a:visited.button-secondary.white:hover {
 
 @media only screen and (max-width: 600px) {
   .global-footer .social-links ul {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -1091,7 +1267,9 @@ a:visited.button-secondary.white:hover {
   .global-footer .social-links li {
     display: inline-block;
     float: none;
-    flex: 0 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     margin-left: 0;
   }
 }
@@ -1158,8 +1336,13 @@ a:visited.button-secondary.white:hover {
 
 @media only screen and (max-width: 600px) {
   .global-footer .legal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
   }
 }
@@ -1182,7 +1365,9 @@ a:visited.button-secondary.white:hover {
   .global-footer .legal .copyright {
     float: none;
     margin-bottom: 60px;
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 }
 
@@ -1195,9 +1380,15 @@ a:visited.button-secondary.white:hover {
   .global-footer .legal .links {
     float: none;
     margin-bottom: 60px;
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -1250,7 +1441,11 @@ a:visited.button-secondary.white:hover {
 }
 
 .sign-up .container {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   max-width: 1220px;
   margin: 0 auto;
@@ -1259,12 +1454,17 @@ a:visited.button-secondary.white:hover {
 
 @media only screen and (max-width: 600px) {
   .sign-up .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 .sign-up .container .col {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .sign-up .container .col.text {
@@ -1374,7 +1574,8 @@ a:visited.button-secondary.white:hover {
 .sign-up form input[type=password] {
   font-family: "Soleil", Helvetica, Arial, sans-serif;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   background: #fff;
   border-radius: 5px;
   border: 1px solid #eef2f3;
@@ -1408,6 +1609,24 @@ a:visited.button-secondary.white:hover {
   font-weight: lighter;
 }
 
+.sign-up form input[type=email]::-webkit-input-placeholder,
+.sign-up form input[type=password]::-webkit-input-placeholder {
+  color: #94999C;
+  opacity: 1;
+}
+
+.sign-up form input[type=email]:-ms-input-placeholder,
+.sign-up form input[type=password]:-ms-input-placeholder {
+  color: #94999C;
+  opacity: 1;
+}
+
+.sign-up form input[type=email]::-ms-input-placeholder,
+.sign-up form input[type=password]::-ms-input-placeholder {
+  color: #94999C;
+  opacity: 1;
+}
+
 .sign-up form input[type=email]::placeholder,
 .sign-up form input[type=password]::placeholder {
   color: #94999C;
@@ -1418,6 +1637,21 @@ a:visited.button-secondary.white:hover {
 .sign-up form input[type=password].active-error {
   background-color: #eef2f3;
   border: 1px solid #ff415f;
+  color: #ff415f;
+}
+
+.sign-up form input[type=email].active-error::-webkit-input-placeholder,
+.sign-up form input[type=password].active-error::-webkit-input-placeholder {
+  color: #ff415f;
+}
+
+.sign-up form input[type=email].active-error:-ms-input-placeholder,
+.sign-up form input[type=password].active-error:-ms-input-placeholder {
+  color: #ff415f;
+}
+
+.sign-up form input[type=email].active-error::-ms-input-placeholder,
+.sign-up form input[type=password].active-error::-ms-input-placeholder {
   color: #ff415f;
 }
 
@@ -1479,7 +1713,8 @@ a:visited.button-secondary.white:hover {
 
 .sign-up input.button-primary {
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
 }
 
 .sign-up .form-errors-container {
@@ -1515,5 +1750,7 @@ a:visited.button-secondary.white:hover {
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+/*# sourceMappingURL=styles.css.map */
