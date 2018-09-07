@@ -14,12 +14,13 @@ header {
             list-style: none;
             i {
                 color: green;
-                font-size: 2vw;
+                font-size: 1.5vw;
             }
             a {
                 text-decoration: none;
                 color: black;
                 font-weight: 900;
+                text-transform: uppercase;
                 &:hover {
                     color: green;
                 }

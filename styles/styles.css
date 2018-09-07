@@ -25,13 +25,14 @@ header nav li {
 
 header nav li i {
   color: green;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 header nav li a {
   text-decoration: none;
   color: black;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 header nav li a:hover {
@@ -150,8 +151,8 @@ section .logo-carousel-wrapper {
 
 section .logo-carousel-wrapper > img {
   padding: 0 2vw;
-  width: 6vw;
-  height: auto;
+  width: 15.5vw;
+  height: 10vw;
   opacity: 0.1;
 }
 
@@ -240,6 +241,8 @@ section #quotes {
 
 section #quotes > p {
   opacity: .1;
+  font-size: 2vw;
+  line-height: 3vw;
 }
 
 section #quotes > p:nth-child(1) {
@@ -321,12 +324,11 @@ section #quotes > p:nth-child(6) {
 }
 
 .mio {
-  box-sizing: content-box;
   background-image: url(../img/greenbackground.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 35vw;
-  margin: 10vw 0 0 0;
+  height: 50vw;
+  margin: 0;
   padding: 7vw 3vw 3vw 7vw;
 }
 
