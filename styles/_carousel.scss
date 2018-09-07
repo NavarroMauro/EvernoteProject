@@ -24,8 +24,8 @@ section {
         align-items: center;
         > img {
             padding: 0 2vw;
-            width: 6vw;
-            height: auto;
+            width: 15.5vw;
+            height: 10vw;
             opacity: 0.1;
             @for $i from 1 to 7 {
                 &:nth-child(#{$i}) {
@@ -55,6 +55,8 @@ section {
         text-align: center;
         > p {
             opacity: .1;
+            font-size: 2vw;
+            line-height: 3vw;
             @for $i from 1 to 7 {
                 &:nth-child(#{$i}) {
                     @if $i > 1 {
